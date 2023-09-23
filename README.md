@@ -63,6 +63,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
+import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-snanmeanors/tags). For example,
+
+```javascript
 import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@v0.1.0-deno/mod.js';
 ```
 
@@ -173,7 +178,7 @@ var v = snanmeanors.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@v0.1.0-deno/mod.js';
+import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@deno/mod.js';
 
 var x;
 var i;
