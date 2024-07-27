@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@esm/index.mjs';
+import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@v0.2.2-esm/index.mjs';
 ```
 
 #### snanmeanors( N, x, stride )
@@ -178,7 +178,7 @@ var v = snanmeanors.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@esm/index.mjs';
+import snanmeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanmeanors@v0.2.2-esm/index.mjs';
 
 var x;
 var i;
