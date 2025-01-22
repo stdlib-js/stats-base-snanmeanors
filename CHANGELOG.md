@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-08)
+## Unreleased (2025-01-22)
+
+<section class="features">
+
+### Features
+
+-   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786) _(by Aayush Khanna)_
 -   [`493839b`](https://github.com/stdlib-js/stdlib/commit/493839b95a9be8fe1680237242935904c7dd9c6f) - **refactor:** update `stats/base/snanmeanors` native addon from C++ to C [(#4610)](https://github.com/stdlib-js/stdlib/pull/4610) _(by Vivek Maurya)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
@@ -28,8 +39,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
 -   Vivek Maurya
